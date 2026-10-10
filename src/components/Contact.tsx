@@ -275,7 +275,7 @@ export function Contact() {
                 <div className="overflow-hidden">
                   <div className="text-[10px] uppercase font-mono text-slate-400">GitHub Profile</div>
                   <div className="text-xs font-semibold text-white truncate">
-                    github.com/stutisrivastava
+                    github.com/stutisrivastava22
                   </div>
                 </div>
               </div>

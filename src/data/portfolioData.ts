@@ -68,7 +68,7 @@ export const PERSONAL_INFO = {
   email: "stutisrivastava922@gmail.com",
   phone: "+91-9980047478",
   linkedin: "https://www.linkedin.com/in/stuti-srivastava-a3668118b/",
-  github: "https://github.com/stutisrivastava",
+  github: "https://github.com/stutisrivastava22",
   stats: [
     { label: "Years Experience", value: "5+", detail: "AI, GenAI & ML Systems" },
     { label: "Turnaround Cut", value: "95%", detail: "From 3-5 days to < 10 mins" },
@@ -199,7 +199,7 @@ export const PROJECTS_DATA: Project[] = [
       "Explored Bedrock AgentCore Gateway for extensible tool registries."
     ],
     links: {
-      github: "https://github.com/stutisrivastava",
+      github: "https://github.com/stutisrivastava22",
       liveDemo: "#"
     }
   },
@@ -623,7 +623,7 @@ export const PROJECTS_DATA: Project[] = [
       "For a React chatbot, call FastAPI from the frontend while hosting the model and adapter on a separate GPU-capable backend; did not load model weights into the browser."
     ],
     links: {
-      github: "https://github.com/stutisrivastava",
+      github: "https://github.com/stutisrivastava22",
       liveDemo: "#"
     }
   },
