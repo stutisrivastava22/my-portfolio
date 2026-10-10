@@ -59,8 +59,10 @@ export function Contact() {
         origin: { y: 0.7 },
         colors: ["#6366F1", "#A78BFA", "#F472B6", "#10B981"]
       });
-    } catch {
-      setSubmissionError("We couldn't send your message. Please try again or email directly.");
+    } catch(error: any) {
+      console.error('Google API Error:', error);
+      return Response.json({ error: error.message }, { status: 500 });
+      //setSubmissionError("We couldn't send your message. Please try again or email directly.");
     } finally {
       setIsSubmitting(false);
     }
